@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commit In Chunks"
+  short_description: "Split large Git changes safely"
+  default_prompt: "Use $git-commit-in-chunks to split large changes into size-limited commits."
