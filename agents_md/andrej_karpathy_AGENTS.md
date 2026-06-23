@@ -60,6 +60,14 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
+## 5. Communication
+
+**Make approvals easy to copy and paste.**
+
+- Approval tokens should use lowercase words, digits, and underscores only, with no spaces.
+- Use `approve_1`, `decline_2`, `explain_3`, `approve_1_3`, or `approve_new_config`.
+- Do not ask for approvals in forms like "approve #1 -#3" or "approve new config".
+
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.

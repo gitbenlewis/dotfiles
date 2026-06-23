@@ -42,8 +42,10 @@ COMMUNICATION & REVIEW (IMPORTANT)
   1) PLAN: ...
   2) DIFF: ...
   3) QUESTION: ...
-- Expect responses of the form: "yes to #1, no to #2, explain #3 more" and adjust accordingly.
+- Expect responses of the form: `approve_1`, `decline_2`, `explain_3`, or `approve_1_3` and adjust accordingly.
 - When requesting approval, ask for approval per item (or per group of item numbers), not a generic "yes".
+- Approval tokens must be copy/paste-friendly: use lowercase words, digits, and underscores only, with no spaces.
+- Use phrase approvals like `approve_new_config`, not `approve new config`; use grouped approvals like `approve_1_3`, not `approve #1 -#3`.
 - When requesting approval when possible use the green aproval bottom used by codex
 
 TASK PROMPT TEMPLATE (FILL IN PER REQUEST)
