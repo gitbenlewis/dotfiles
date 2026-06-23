@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notebook Plot Migration"
+  short_description: "Migrate plot notebooks to config scripts"
+  default_prompt: "Use $notebook-to-config-plot-script to plan and implement a config-driven plotting script from a notebook."
