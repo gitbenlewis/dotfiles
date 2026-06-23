@@ -1,0 +1,11 @@
+name: env_nextflow
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - nextflow=25.10.2
+  - python=3.10
+  - pyyaml
+  - yq
+  - jq
+  - git
