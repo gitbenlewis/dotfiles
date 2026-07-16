@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commits That Push"
+  short_description: "Prevent oversized files from blocking GitHub pushes"
+  default_prompt: "Use $git-commits-that-push to prepare commits that will not be blocked by GitHub oversized-file limits."

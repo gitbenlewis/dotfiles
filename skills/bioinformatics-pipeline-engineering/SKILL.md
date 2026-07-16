@@ -1,5 +1,9 @@
-# Read local Codex instructions.
-Codex Instructions
+---
+name: bioinformatics-pipeline-engineering
+description: Apply cautious, plan-first engineering practices to bioinformatics pipelines while preserving scientific intent, public APIs, numerical behavior, and repository conventions. Use when Codex plans, reviews, debugs, refactors, optimizes, or extends bioinformatics pipeline code.
+---
+
+# Bioinformatics Pipeline Engineering
 
 no low-value helper functions
 no low-value guards

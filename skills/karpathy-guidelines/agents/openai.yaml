@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karpathy Guidelines"
+  short_description: "Apply concise, surgical coding guidelines"
+  default_prompt: "Use $karpathy-guidelines to implement this coding task with minimal, verifiable changes."

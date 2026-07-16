@@ -1,0 +1,4 @@
+interface:
+  display_name: "Config-Driven Script"
+  short_description: "Build YAML-backed Python and Bash workflows"
+  default_prompt: "Use $config-driven-script to build or update a config-driven pipeline script."

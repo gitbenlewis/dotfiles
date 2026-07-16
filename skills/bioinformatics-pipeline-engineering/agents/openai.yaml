@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bioinformatics Pipeline Engineering"
+  short_description: "Engineer bioinformatics pipelines safely"
+  default_prompt: "Use $bioinformatics-pipeline-engineering to plan and implement this bioinformatics pipeline change safely."
