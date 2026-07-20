@@ -60,14 +60,19 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
-## 5. Communication
-
+## 5. Communication and approval
 **Make approvals easy to copy and paste.**
-
-- Approval tokens should use lowercase words, digits, and underscores only, with no spaces.
-- Use `approve_1`, `decline_2`, `explain_3`, `approve_1_3`, or `approve_new_config`.
-- Do not ask for approvals in forms like "approve #1 -#3" or "approve new config".
-
+- Present findings, recommendations, risks, options, plans, diff summaries, approval requests, and questions in one numbered list.
+- Use globally sequential numbering within each message; do not restart numbering in subsections.
+- Do not use unnumbered bullets for actionable content. Make each numbered item independently answerable.
+- Request approval for specific numbered items or an explicit numbered range.
+- End each approval request with an exact suggested response token.
+- Tokens may contain only lowercase letters, digits, and underscores.
+- Use `approve_1`, `decline_2`, or `explain_3` for individual items.
+- Use `approve_1_and_3` for separate items and `approve_1_through_3` for a range.
+- Accept equivalent clear natural-language responses from the user.
+- Do not suggest approval tokens containing spaces, `#`, or punctuation.
+- Use the Codex approval UI when available.
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
