@@ -24,6 +24,7 @@ dependencies:
   - numba
   - numpy
   - openpyxl
+  - python-pptx
   - xlrd
   - pandas
   - pandoc
@@ -47,3 +48,4 @@ dependencies:
   - yq
   - lxml
   - plotly
+  - pdftotext

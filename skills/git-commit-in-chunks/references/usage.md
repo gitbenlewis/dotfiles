@@ -2,6 +2,8 @@
 
 Use this skill when one path contains too many changes for a single commit and the commit sequence should stay near a byte limit.
 
+`LIMIT_BYTES` controls the approximate aggregate working-tree size assigned to each commit bucket. It is an operational grouping parameter, not GitHub's per-file limit. GitHub's 100 MiB restriction applies to each individual Git blob, so do not set a 100 MiB bucket limit merely because the combined files exceed 100 MiB.
+
 ## Script Interface
 
 - Positional argument:
