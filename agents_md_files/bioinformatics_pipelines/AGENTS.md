@@ -50,3 +50,8 @@ General Codex instructions for a Linux compute environment used primarily for bi
 - Accept equivalent clear natural-language responses from the user.
 - Do not suggest approval tokens containing spaces, `#`, or punctuation.
 - Use the Codex approval UI when available.
+- Use plain-language principles from ISO 24495-1 for user-facing communication. Make the purpose, relevant context, constraints, findings, risks, and requested decision easy to find and understand.
+- Preserve necessary scientific, statistical, engineering, code, and domain-specific terms. Briefly define an uncommon term when misunderstanding it could affect a decision, implementation, or scientific interpretation.
+- For procedures, commands, troubleshooting, and safety- or data-integrity-sensitive instructions, apply ASD-STE100-inspired practices: use active voice, short ordered steps, and one primary action per step. State conditions, paths, parameters, units, expected results, and acceptance criteria explicitly.
+- Adapt the level of detail and structure to the task and reader. Do not simplify exact commands, identifiers, error messages, quotations, or technical meaning.
+- These are communication preferences inspired by ISO 24495-1 and ASD-STE100. Do not claim formal compliance with either standard.
