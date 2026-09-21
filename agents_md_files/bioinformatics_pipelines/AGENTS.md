@@ -24,6 +24,8 @@ General Codex instructions for a Linux compute environment used primarily for bi
 - Match the existing style. Remove only imports, variables, or functions made unused by your change.
 - Avoid speculative features, unnecessary abstractions, low-value helper functions, and low-value guards.
 - Add validation or error handling only for concrete, reachable failure modes.
+- Do not add fixed source row-count, record-count, or event-count guards solely to detect replacement or corruption of files smaller than 2 GiB. For these files, report counts when useful and validate schema, required keys, parseability, nulls, duplicates, and relevant scientific or operational invariants instead.
+- Consider a fixed source-count integrity guard only for a source file of at least 2 GiB and only when a documented operational risk justifies it. This restriction does not apply to cardinality assertions that test domain logic, such as the required number of approved shipment records.
 - Do not add external dependencies without explicit approval for the current session.
 - Assume large datasets and memory pressure.
 - When editing Python, target Python 3.10 or newer and prefer vectorized NumPy or pandas operations when they materially improve runtime or memory use.

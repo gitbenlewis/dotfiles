@@ -1,0 +1,6 @@
+interface:
+  display_name: "Persistent Execution Plan"
+  short_description: "Save, execute, and maintain durable plans"
+  default_prompt: "Use $persistent-execution-plan to save this implementation plan, execute its approved phases, and maintain its scratchpad."
+policy:
+  allow_implicit_invocation: true
