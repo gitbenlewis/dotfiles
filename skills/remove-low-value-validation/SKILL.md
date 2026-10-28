@@ -19,7 +19,7 @@ Candidates include fixed row, sample, feature, event, or shape expectations copi
 
 First establish whether these checks instead protect a real contract, immutable release, concurrent-write hazard, or other documented operational risk. Retain or narrowly adapt a meaningful safeguard rather than deleting it because it resembles a candidate.
 
-Do not introduce fixed source-count integrity guards for files smaller than 2 GiB solely to detect replacement or corruption. Report useful counts and validate functional invariants instead. Consider such a guard for a file of at least 2 GiB only when a documented operational risk justifies it; file size alone is not justification. This restriction does not apply to domain cardinality assertions.
+Decide whether a gate is needed from the consequence of failure and the concrete requirement it protects, regardless of file size. Retain gates needed for functional, scientific, schema, parsing, join-key, relationship-cardinality, concurrency, security, compliance, audit, immutable-release, or external-interface requirements. Do not retain or introduce a count, checksum, timestamp, shape, manifest, or byte-size gate solely because a file exceeds a particular size. Report useful counts without making them gates when no such requirement exists. Preserve meaningful domain-cardinality assertions.
 
 ## Remove the complete obsolete path
 

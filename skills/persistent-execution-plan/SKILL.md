@@ -70,20 +70,6 @@ If the implementation direction materially changes, update the plan and obtain a
 
 Do not continue mechanically when observed repository state invalidates the plan. Record the discrepancy, update the affected phase, and request direction if the required decision exceeds the best-guess boundary.
 
-## Implementation Scratchpad
-
-Keep `Implementation scratchpad` as the final top-level section. Append dated entries in execution order. Each meaningful entry should record:
-
-1. Phase or objective addressed.
-2. Material decisions and provisional assumptions used.
-3. Files or repositories changed.
-4. Commands and focused checks run, with concise outcomes.
-5. Deviations from the plan and why they were necessary.
-6. Failures, warnings, and checks not run.
-7. Current state and next action.
-
-Append corrections instead of rewriting prior entries without explanation. Keep entries concise and evidence-based. Never store credentials, tokens, patient-identifying information, raw private prompts, hidden reasoning, or unnecessary sensitive log content.
-
 ## Resume and Complete
 
 When resuming in a later turn or session, read the plan and scratchpad before acting. Verify current Git and process state rather than assuming the last recorded state still holds.
@@ -107,3 +93,17 @@ Keep delivered implementation separate from accepted review and from publication
 ## Related Skills
 
 Use [analysis-repo](../analysis-repo/SKILL.md) for repository regeneration and handoff design and [remove-low-value-validation](../remove-low-value-validation/SKILL.md) for cleanup of obsolete snapshot guards. These optional companions do not replace this skill's plan path conventions, provisional assumptions, phased verification, or append-only scratchpad behavior.
+
+## Implementation Scratchpad
+
+Keep `Implementation scratchpad` as the final top-level section. Append dated entries in execution order. Each meaningful entry should record:
+
+1. Phase or objective addressed.
+2. Material decisions and provisional assumptions used.
+3. Files or repositories changed.
+4. Commands and focused checks run, with concise outcomes.
+5. Deviations from the plan and why they were necessary.
+6. Failures, warnings, and checks not run.
+7. Current state and next action.
+
+Append corrections instead of rewriting prior entries without explanation. Keep entries concise and evidence-based. Never store credentials, tokens, patient-identifying information, raw private prompts, hidden reasoning, or unnecessary sensitive log content.
