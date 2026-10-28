@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analysis Repository"
+  short_description: "Define reproducible analysis repository contracts"
+  default_prompt: "Use $analysis-repo to review this workflow and carry out its authorized scope."

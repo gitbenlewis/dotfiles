@@ -15,7 +15,7 @@ Use a plan file as the durable source of truth for substantial implementation wo
 4. If no convention exists, use a concise descriptive filename ending in `.PLAN.md`.
 5. Do not create or update a plan outside the authorized repository or requested path.
 
-Creating a plan does not itself authorize implementation. Follow repository-specific approval rules and record the applicable boundary in the plan.
+Creating or updating a plan does not itself authorize implementation, commits, publication, deployment, destructive actions, or other external effects. Follow repository-specific approval rules and record the applicable boundary in the plan.
 
 ## Required Plan Content
 
@@ -97,3 +97,13 @@ At completion:
 5. Set the plan status to complete only when the requested objective is achieved and no required implementation work remains.
 
 The final user report should summarize the outcome and link the plan; it should not require the user to reconstruct the result from the scratchpad.
+
+## Coordinate Related Plans
+
+When several related plans need coordination, use a small roadmap index in the existing planning location. Record each plan's relative link, objective, dependencies, owner, implementation status, review status, acceptance evidence, authorization boundaries, and next action. Keep detailed decisions and scratchpad entries in the individual plans rather than duplicating them in the index. Update the index after meaningful status changes and verify its links when resuming.
+
+Keep delivered implementation separate from accepted review and from publication or live acceptance. An index entry never authorizes task creation, messaging, or external effects. For explicitly authorized separate roles, use [roadmap-oversight-implementation](../roadmap-oversight-implementation/SKILL.md) when available.
+
+## Related Skills
+
+Use [analysis-repo](../analysis-repo/SKILL.md) for repository regeneration and handoff design and [remove-low-value-validation](../remove-low-value-validation/SKILL.md) for cleanup of obsolete snapshot guards. These optional companions do not replace this skill's plan path conventions, provisional assumptions, phased verification, or append-only scratchpad behavior.

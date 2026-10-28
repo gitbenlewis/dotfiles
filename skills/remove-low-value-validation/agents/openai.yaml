@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remove Low-Value Validation"
+  short_description: "Remove obsolete guards while preserving correctness"
+  default_prompt: "Use $remove-low-value-validation to review this workflow and carry out its authorized scope."

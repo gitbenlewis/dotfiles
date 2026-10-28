@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roadmap Oversight and Implementation"
+  short_description: "Coordinate authorized phases and independent reviews"
+  default_prompt: "Use $roadmap-oversight-implementation to review this workflow and carry out its authorized scope."
